@@ -1,0 +1,8 @@
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\bin\Debug\netstandard2.0\Assignment.Model.deps.json
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\bin\Debug\netstandard2.0\Assignment.Model.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\bin\Debug\netstandard2.0\Assignment.Model.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\obj\Debug\netstandard2.0\Assignment.Model.AssemblyInfoInputs.cache
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\obj\Debug\netstandard2.0\Assignment.Model.AssemblyInfo.cs
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\obj\Debug\netstandard2.0\Assignment.Model.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\obj\Debug\netstandard2.0\Assignment.Model.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Model\obj\Debug\netstandard2.0\Assignment.Model.csprojAssemblyReference.cache

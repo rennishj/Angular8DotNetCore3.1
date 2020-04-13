@@ -1,0 +1,36 @@
+<p style="text-align: center;">
+  <strong>{{ uploadMessage }}</strong>
+</p>
+<div class="container">
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-md-3">
+      <input type="file" #file (change)="burstEnrollmentFile(file.files)" />
+      <button type="button" class="btn btn-success" (click)="file.click()">
+        Upload File
+      </button>
+    </div>
+    <div class="col-md-4">
+      <span class="upload" *ngIf="progress > 0">{{ progress }}%</span>
+      <span class="upload" *ngIf="responseMessage">{{ responseMessage }}</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6" *ngIf="responseMessage && isEnrollment">
+      <p>
+        {{ fileUploadResponse.UploadedFileName }} file got bursted into the
+        following files.
+      </p>
+      <ul>
+        <li *ngFor="let item of fileUploadResponse.BursetedFiles">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6" *ngIf="responseMessage && !isEnrollment">
+      <p>
+        The uploaded LISP code file
+        {{ fileUploadResponse.IsValid ? "is valid" : "is not valid" }}.
+      </p>
+    </div>
+  </div>
+</div>

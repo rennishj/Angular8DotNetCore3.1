@@ -1,0 +1,11 @@
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\bin\Debug\netstandard2.0\Assignment.DataAccess.deps.json
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\bin\Debug\netstandard2.0\Assignment.DataAccess.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\bin\Debug\netstandard2.0\Assignment.DataAccess.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.csprojAssemblyReference.cache
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.AssemblyInfoInputs.cache
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.AssemblyInfo.cs
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\bin\Debug\netstandard2.0\Assignment.Model.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\bin\Debug\netstandard2.0\Assignment.Model.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.DataAccess\obj\Debug\netstandard2.0\Assignment.DataAccess.csproj.CopyComplete

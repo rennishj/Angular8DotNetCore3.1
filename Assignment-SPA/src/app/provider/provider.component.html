@@ -1,0 +1,179 @@
+<div class="container mt-5">
+  <form
+    #registrationForm="ngForm"
+    class="needs-validation"
+    (ngSubmit)="registerProvider()"
+    novalidate
+  >
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="firstName">First Name</label>
+        <input
+          [(ngModel)]="provider.FirstName"
+          type="text"
+          class="form-control"
+          id="firstName"
+          name="FirstName"
+          maxlength="50"
+          placeholder="First Name"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          FirstName is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="lastName">Last Name</label>
+        <input
+          [(ngModel)]="provider.LastName"
+          type="text"
+          class="form-control"
+          id="lastName"
+          name="lastName"
+          maxlength="50"
+          placeholder="Last Name"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          LastName is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="email">Email</label>
+        <input
+          [(ngModel)]="provider.Email"
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          maxlength="30"
+          placeholder="Email"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          LastName is required.
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="phone">Phone</label>
+        <input
+          [(ngModel)]="provider.Phone"
+          type="text"
+          class="form-control"
+          id="phone"
+          name="phone"
+          minlength="10"
+          maxlength="12"
+          placeholder="Phone"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          Phone is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="address">Address</label>
+        <input
+          [(ngModel)]="provider.ProviderAddress.Address1"
+          type="text"
+          class="form-control"
+          id="address"
+          name="address"
+          maxlength="50"
+          placeholder="Address"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          Address is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="phone">City</label>
+        <input
+          [(ngModel)]="provider.ProviderAddress.City"
+          type="text"
+          class="form-control"
+          id="city"
+          name="city"
+          placeholder="City"
+          maxlength="50"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          City is required.
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="state">State</label>
+        <select
+          class="form-control"
+          id="state"
+          name="state"
+          [(ngModel)]="provider.ProviderAddress.State"
+          required
+        >
+          <option *ngFor="let state of usStates" [value]="state.Id">{{
+            state.Name
+          }}</option>
+        </select>
+        <div class="invalid-feedback">
+          State is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="zipCode">Zip Code</label>
+        <input
+          [(ngModel)]="provider.ProviderAddress.ZipCode"
+          type="text"
+          class="form-control"
+          id="zipCode"
+          name="zipCode"
+          minlength="5"
+          maxlength="10"
+          placeholder="Zip Code"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          Zip Code is required.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="npiNumber">NPI Number</label>
+        <input
+          [(ngModel)]="provider.NPINumber"
+          type="text"
+          class="form-control"
+          id="npiNumber"
+          name="NPINumber"
+          placeholder="NPI Number"
+          minlength="10"
+          maxlength="10"
+          value=""
+          required=""
+        />
+        <div class="invalid-feedback">
+          NPI Number is required.
+        </div>
+      </div>
+    </div>
+    <hr class="mb-4" />
+    <button
+      class="btn btn-primary btn-lg btn-block"
+      type="submit"
+      [disabled]="!registrationForm.valid"
+    >
+      Register
+    </button>
+  </form>
+</div>

@@ -1,0 +1,13 @@
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.Services.deps.json
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.Services.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.Services.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.csprojAssemblyReference.cache
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.AssemblyInfoInputs.cache
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.AssemblyInfo.cs
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.DataAccess.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.Model.dll
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.DataAccess.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\bin\Debug\netstandard2.0\Assignment.Model.pdb
+C:\Development\JobHuntingPrep\Availity_Assignment\CodingChallenge-DotNetCore-3\CodingChallenge\Assignment.Services\obj\Debug\netstandard2.0\Assignment.Services.csproj.CopyComplete

@@ -1,0 +1,10 @@
+(defun queue-print-function (queue stream depth)
+  "This is the function used to print queue structures."
+  (declare (ignore depth))
+  (multiple-value-bind (current-size max-size)
+      (queue-length queue)
+    (format stream "#<Queue ~A/~A ~X>" 
+            current-size
+            max-size
+            (liquid::%pointer queue))))
+
