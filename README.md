@@ -1,4 +1,4 @@
-# Angular8WithDotNetCore3
+# Angular8WithDotNetCore3.1
 This is a sample application built in Asp.Net Core 3.1 and Angular 8 framework.
 Angular SPA is in the directory Assignmentt-SPA and Web api in Assignment.API.
 Typically you run the CodingChallenge.sln file in VS 2019/2017 and Assignment-SPA in Vs code.
@@ -7,6 +7,24 @@ All the database objects can be found inside the directory Assignment.API\TSqlSc
 The dml_and_ddl.sql file is rerunnable. Run this first before launching the  angular SPA.
 Test files used to test the functionalities exposed by the API controller can be found in the Assignment.API\TestFiles API folder.
 Bursted csv files will be created in the wwwroot directory.
+
+
+Steps to Run Assignment.API
+=================================
+1. Make sure you have Dot Net Core 3.1 and sql server 2008R2 or later installed.
+2. Open the solution file located in the project root in VS 2019 or 2017
+3. Right click Assigment.API and set that as start up project after building the solution
+4. Run the API project and keep it running for the SPA application.
+5. Run the dml_and_ddl.sql file from  the TSqlScripts directory of the Assignment.API project in sql server management studio.
+
+Steps to run Angular SPA
+===========================
+1. Make sure you have NPM version 6.2 or later installed. This is specifically built against 6.13
+2. OPen Assignment.SPA is a code editor like Vs code
+3.Open up the terminal and type npm install to  download the dependencies installed in package.json file
+4.Type ng serve -o to open  up abrowser in  port 4200
+
+================LISP
 
 
 
