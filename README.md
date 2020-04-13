@@ -13,14 +13,14 @@ Steps to Run Assignment.API
 
 Steps to run Angular SPA
 ===========================
-1. Make sure you have NPM version 6.2 or later installed. This is specifically built against 6.13
-2. OPen Assignment.SPA is a code editor like Vs code
-3.Open up the terminal and type npm install to  download the dependencies installed in package.json file
-4.Type ng serve -o to open  up abrowser in  port 4200
+1. Make sure you have NPM version 6.2 or later installed. This is specifically built against 6.13.
+2. Open Assignment.SPA in a code editor like Vs code.
+3. Open up the terminal and type npm install to  download the dependencies specified in package.json file.
+4. Type ng serve -o to open up a browser in port 4200.
 
 Test files for LISP Code and Enrollment File functionality 
 ===================================================================
-1. Burst enrollment file is tested aginst the file format used in the Assigment.API\TestFiles\enrollment.csv
+1. Burst enrollment file is tested against the file format used in the Assigment.API\TestFiles\enrollment.csv.
 2. Vallidate LISP code is testd against the  valid_lisp_code.txt, invalid_lisp_code.txt files.
 3. Enrollment files will be bursted into wwwroot folder.
 
