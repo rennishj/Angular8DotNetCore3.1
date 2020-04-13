@@ -24,7 +24,7 @@ Steps to run Angular SPA
 3.Open up the terminal and type npm install to  download the dependencies installed in package.json file
 4.Type ng serve -o to open  up abrowser in  port 4200
 
-Selecting files to test LISP Code and Enrollment File functionality 
+Test files for LISP Code and Enrollment File functionality 
 ===================================================================
 1. Burst enrollment file is tested aginst the file format used in the Assigment.API\TestFiles\enrollment.csv
 2. Vallidate LISP code is testd against the  valid_lisp_code.txt, invalid_lisp_code.txt files.
